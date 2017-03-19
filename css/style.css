@@ -2,7 +2,7 @@
 
 
 /*---------------------------------------
-   reset, html, and body style              
+   reset, html, and body style
 -----------------------------------------*/
 
 *,
@@ -34,12 +34,12 @@ body {
 	background: url(../images/rec.png);
 	color: #ffffff !important;
 	background-size: cover;
-
+	background-attachment: fixed;
 }
 
 
 /*---------------------------------------
-   Anchor Link and Bold Text           
+   Anchor Link and Bold Text
 -----------------------------------------*/
 a {
 	text-decoration: none;
@@ -66,7 +66,7 @@ strong {
 
 
 /*---------------------------------------
-   Viewport         
+   Viewport
 -----------------------------------------*/
 @-webkit-viewport {
 	width: device-width;
@@ -131,7 +131,7 @@ li {
 
 
 /*---------------------------------------
-   Typography               
+   Typography
 -----------------------------------------*/
 h1{
 	font-family: 'Raleway', sans-serif;
@@ -193,7 +193,7 @@ h6 {
 }
 
 /*---------------------------------------
-   Buttons             
+   Buttons
 -----------------------------------------*/
 .btn:focus,
 .btn:active,
@@ -246,7 +246,7 @@ h6 {
 	border-radius: 10px;
 }
 /*---------------------------------------
-   All Section                
+   All Section
 -----------------------------------------*/
 .section-about,
 .section-features,
@@ -263,13 +263,16 @@ h6 {
 	background: rgba(0, 0, 0, 0.6);
 }
 
+.section-portfolio {
+	text-align: left;
+}
 
 
 /*---------------------------------------
-   Header              
+   Header
 -----------------------------------------*/
 header {
-	background: url(../images/bg.jpg) no-repeat center top fixed;
+	background: url(../images/bg0.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -306,7 +309,7 @@ header {
 
 
 /*---------------------------------------
-   Navigation       
+   Navigation
 -----------------------------------------*/
 /* Navigation Reset */
 .navbar-nav > li > a:hover {
@@ -329,7 +332,7 @@ header {
 .sticky-navigation {
 	min-height: 75px;
 	-webkit-backface-visibility: hidden;
-   
+
 }
 
 .sticky-navigation .navbar-header {
@@ -359,7 +362,7 @@ header {
 
 
 /*---------------------------------------
-   About Product            
+   About Product
 -----------------------------------------*/
 
 .side-images {
@@ -378,7 +381,7 @@ header {
 }
 
 /*---------------------------------------
-  About Product Features               
+  About Product Features
 -----------------------------------------*/
 
 .feature-list {
@@ -412,12 +415,12 @@ header {
 
 
 /*========================================
-   Features             
+   Features
 ==========================================*/
 
 .features {
 	margin-top: 35px;
-    
+
 }
 
 .feature {
@@ -442,7 +445,7 @@ header {
 
 
 /*----------------------------------------
-   Pricing Table             
+   Pricing Table
 ------------------------------------------*/
 
 .pricing-table {
@@ -533,7 +536,7 @@ header {
 }
 
 /*---------------------------------------
-   Video         
+   Video
 -----------------------------------------*/
 
 video {
@@ -558,7 +561,7 @@ object {
 
 
 /*----------------------------------------
-   Portfolio             
+   Portfolio
 ------------------------------------------*/
 
 .portfolio {
@@ -577,15 +580,20 @@ object {
 
 .portfolio-images img:hover {
     cursor: zoom-in;
-	cursor: -webkit-zoom-in; 
+	cursor: -webkit-zoom-in;
     cursor: -moz-zoom-in;
 	opacity: 0.8;
 }
 
-
+.selfie {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: inline-block;
+}
 
 /* --------------------------------------
-   8. Section Testimonial                 
+   8. Section Testimonial
 ----------------------------------------- */
 .section-testimonial .carousel-indicators {
     bottom: -40px !important;
@@ -608,7 +616,7 @@ object {
 
 
 /*---------------------------------------
-   Contact US        
+   Contact US
 -----------------------------------------*/
 
 .contact-us {
@@ -621,7 +629,7 @@ object {
 }
 
 /*---------------------------------------
-    Contact Form        
+    Contact Form
 -----------------------------------------*/
 .contact-form {
 	margin-top: 25px;
@@ -674,7 +682,7 @@ object {
 }
 
 /*----------------------------------------
-   Footer             
+   Footer
 ------------------------------------------*/
 footer {
 	padding-top: 75px;
@@ -699,4 +707,41 @@ footer {
 
 .social-icons li a:hover {
 	text-decoration: none;
+}
+
+
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 0 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 0 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
 }

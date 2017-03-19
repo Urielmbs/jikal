@@ -42,7 +42,7 @@ a {
   background:#F9BF3B;
   color: #323232;
 }
-h2 {
+h2, h6 {
   color: #F9BF3B !important;
 }
 .package .header-dark {
