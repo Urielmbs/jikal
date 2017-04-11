@@ -45,11 +45,14 @@ a {
 h2, h6 {
   color: #F9BF3B !important;
 }
-.package .header-dark {
-  background-color: #F9BF3B;
+.package .psu {
+  background-color: #FFC000;
 }
-.package-center .header {
-  background-color: #F9BF3B;
+.package-center .pem {
+  background-color: #FF8D00;
+}
+.package-center .pwb {
+  background-color: #FF3908;
 }
 .package-features .bottom-row .standard-button {
   background-color: #F9BF3B;

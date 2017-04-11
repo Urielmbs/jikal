@@ -367,8 +367,6 @@ header {
 
 .side-images {
 	max-width: 532px;
-    margin-top: 25px;
-    padding-top: 20px;
 }
 
 .about h2 {
@@ -390,8 +388,8 @@ header {
 
 .feature-list li {
 	overflow: auto;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 .feature-list li .icon-custom {
@@ -444,7 +442,6 @@ header {
 }
 
 .list-item{
-	padding-left: 35px;
 	font-size: 0.9em;
 }
 .list-item p{
