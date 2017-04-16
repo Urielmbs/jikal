@@ -45,7 +45,7 @@ a {
 h2, h6 {
   color: #F9BF3B !important;
 }
-.package .psu {
+.package-center .psu {
   background-color: #FFC000;
 }
 .package-center .pem {
@@ -54,6 +54,9 @@ h2, h6 {
 .package-center .pwb {
   background-color: #FF3908;
 }
+.package-center .pbm {
+  background-color: #990000;
+}
 .package-features .bottom-row .standard-button {
   background-color: #F9BF3B;
 }
@@ -61,19 +64,17 @@ h2, h6 {
   background-color: #fff;
     border-color: #F9BF3B !important;
 }
-.package-features .bottom-row .secondary-button {
+.secondary-button {
   margin: 0;
   padding: 5px 15px;
   vertical-align: middle;
     background-color: #F9BF3B;
     border: 1px solid transparent;
 }
-.package-features .bottom-row .secondary-button:hover {
+ .secondary-button:hover {
     background-color: #fff;
     border-color: #F9BF3B;
 }
-.secondary-button:hover {
-   }
 
 .sticky-navigation .main-navigation .current a {
   color: #F9BF3B !important;
